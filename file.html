@@ -6,14 +6,12 @@
     <body>
         <span>hello world</span>
         <a href="https://google.com">im google.com</a>
-        <span onclick="handleClick()">im google.com</span>
         <br />
         <ul>
-            <li><button onclick="handleClick()">Home</button></li>
-            <!-- <li><button onclick="router.loadRoute('about')">About</button></li> -->
-            <!-- <li><button onclick="router.loadRoute('contact')">Contact</button></li> -->
+            <li><button onclick="handleClick('home')">Home</button></li>
+            <li><button onclick="handleClick('about')">About</button></li>
+            <li><button onclick="handleClick('contact')">Contact</button></li>
         </ul>
     </body>
-    <script src="./logic.js"></script>
-    
+    <script src="./index.js"></script>
 </html>
