@@ -8,10 +8,12 @@
         <a href="https://google.com">im google.com</a>
         <br />
         <ul>
-            <li><button onclick="handleClick('home')">Home</button></li>
-            <li><button onclick="handleClick('about')">About</button></li>
-            <li><button onclick="handleClick('contact')">Contact</button></li>
+            <li><button onclick="window.customRouter.loadRoute('')">Home</button></li>
+            <li><button onclick="window.customRouter.loadRoute('about')">About</button></li>
+            <li><button onclick="window.customRouter.loadRoute('contact')">Contact</button></li>
         </ul>
-    </body>
-    <script src="./index.js"></script>
+    </body> 
+    <script type="module" src="./router.js"></script>
+    <script type="module" src="./routes.js"></script>
+    <script type="module" src="index.js"></script>
 </html>

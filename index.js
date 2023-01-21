@@ -1,4 +1,5 @@
 
-function handleClick(txt) {
-    console.log(txt || 'hello');
-}
+import { Router } from './router'
+const router = new Router(routes);
+window.customRouter = router
+
