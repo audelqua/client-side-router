@@ -1,3 +1,3 @@
-
-const router = new Router(routes);
+import someName from './anotherIndex.js'
+console.log(someName)
 
