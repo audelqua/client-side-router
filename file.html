@@ -8,9 +8,9 @@
         <a href="https://google.com">im google.com</a>
         <br />
         <ul>
-            <li><button onclick="router.loadRoute('')">Home</button></li>
-            <li><button onclick="router.loadRoute('about')">About</button></li>
-            <li><button onclick="router.loadRoute('contact')">Contact</button></li>
+            <li><button onclick="window.router.loadRoute('')">Home</button></li>
+            <li><button onclick="window.router.loadRoute('about')">About</button></li>
+            <li><button onclick="window.router.loadRoute('contact')">Contact</button></li>
         </ul>
     </body> 
     <div data-router-outlet>
@@ -18,7 +18,13 @@
     </div>
     <!-- <script src="router.js"></script>
     <script src="routes.js"></script> -->
-    <script src="./router.js"></script>
-    <script src="./routes.js"></script>
-    <script src="./index.js"></script>
+    <!-- <script type="module" src="./router.js">
+
+    </script>
+    <script type="module" src="./routes.js">
+
+    </script> -->
+    <script type="module" src="./index.js">
+
+    </script>
 </html>

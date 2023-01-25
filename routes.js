@@ -12,4 +12,4 @@ const routes = [
       template: '<h1>Contact</h1>',
     },
 ];
-// export default routes
+export default routes
