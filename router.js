@@ -1,5 +1,4 @@
 class Router {
-
     constructor(routes) {
       this.routes = routes;
       this._loadInitialRoute();
@@ -53,3 +52,5 @@ class Router {
       this.loadRoute(...pathSegments );
     }
   }
+
+  // export default Router
